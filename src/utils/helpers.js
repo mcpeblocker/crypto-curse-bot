@@ -17,12 +17,17 @@ const formatCurrencies = (currencies) => {
     return text;
 };
 
-const getUpdateKeyboard = () => Markup.inlineKeyboard([
-    Markup.button.callback("Обновлять", "update")
-])
+const getUpdateKeyboard = (text) => Markup.inlineKeyboard([
+    Markup.button.callback(text, "update")
+]);
+
+const getLanguageKeyboard = (ctx) => Markup.keyboard([
+    Markup.button.text(ctx.i18n.t('language'))
+]).resize().oneTime();
 
 module.exports = {
     getCurrencies,
     formatCurrencies,
-    getUpdateKeyboard
+    getUpdateKeyboard,
+    getLanguageKeyboard
 };

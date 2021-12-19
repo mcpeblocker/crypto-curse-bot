@@ -1,0 +1,7 @@
+{
+    "start": "<b>Hi, This bot helps you to know crypto-currency rates in real-time.\n\nPlease, type /curse to get started</b>",
+    "calculating": "📊 Calculating...",
+    "curseToday": "<b>📊 Today's crypto-currency rates:</b>\n\n",
+    "update": "🔄 Update",
+    "language": "🇺🇸 Change language"
+}

@@ -1,0 +1,7 @@
+{
+    "start": "<b>Salom, bu bot orqali siz kriptovalyuta kurslarini real vaqtda ko'rish imkoniga ega bo'lasiz!.\n\nKurslarni bilish uchun /curse buyrug'ini yozing</b>",
+    "calculating": "📊 Hisoblanmoqda...",
+    "curseToday": "<b>📊 Bugungi kriptovalyuta kurslari:</b>\n\n",
+    "update": "🔄 Yangilash",
+    "language": "🇺🇿 Tilni o'zgartirish"
+}
