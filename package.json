@@ -1,0 +1,23 @@
+{
+  "name": "crypto-curse-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "mcpeblocker",
+  "license": "ISC",
+  "dependencies": {
+    "@coinpaprika/api-nodejs-client": "^1.2.0",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "telegraf": "^4.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
